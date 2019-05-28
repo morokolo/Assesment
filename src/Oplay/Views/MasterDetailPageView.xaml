@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="{Binding Title}"
+    x:Class="Oplay.Views.MasterDetailPageView">
+    <MasterDetailPage.Master>
+        <ContentPage
+            Title="Menu"
+            Icon="hamburger.png"
+            Style="{StaticResource VCNavBarContent}">
+            <StackLayout
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="FillAndExpand">
+                <StackLayout
+                    VerticalOptions="StartAndExpand"
+                    HorizontalOptions="FillAndExpand">
+                    <StackLayout
+                        VerticalOptions="StartAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Orientation="Horizontal"
+                        Padding="0, 15">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding NavigateMenuItem}"
+                                CommandParameter="MySummaryPage" />
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout
+                            Margin="0, 0, 15, 0">
+                            <Image
+                                Source="right_arrow_white.png"
+                                WidthRequest="20"
+                                HeightRequest="20" />
+                        </StackLayout>
+                        <StackLayout>
+                            <Label
+                                Text="Summary"
+                                TextColor="White"
+                                VerticalOptions="CenterAndExpand"
+                                FontSize="15" />
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout
+                        VerticalOptions="StartAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Orientation="Horizontal"
+                        Padding="0, 15">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding NavigateMenuItem}"
+                                CommandParameter="BetHistoryPage" />
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout
+                            Margin="0, 0, 15, 0">
+                            <Image
+                                Source="right_arrow_white.png"
+                                WidthRequest="20"
+                                HeightRequest="20" />
+                        </StackLayout>
+                        <StackLayout>
+                            <Label
+                                Text="My Bets"
+                                TextColor="White"
+                                VerticalOptions="CenterAndExpand"
+                                FontSize="15" />
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout
+                        VerticalOptions="StartAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Orientation="Horizontal"
+                        Padding="0, 15">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding NavigateMenuItem}"
+                                CommandParameter="DashboardPage" />
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout
+                            Margin="0, 0, 15, 0">
+                            <Image
+                                Source="right_arrow_white.png"
+                                WidthRequest="20"
+                                HeightRequest="20" />
+                        </StackLayout>
+                        <StackLayout>
+                            <Label
+                                Text="Fixtures"
+                                TextColor="White"
+                                VerticalOptions="CenterAndExpand"
+                                FontSize="15" />
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout
+                        VerticalOptions="StartAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Orientation="Horizontal"
+                        Padding="0, 15">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding NavigateMenuItem}"
+                                CommandParameter="MyWalletPage" />
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout
+                            Margin="0, 0, 15, 0">
+                            <Image
+                                Source="right_arrow_white.png"
+                                WidthRequest="20"
+                                HeightRequest="20" />
+                        </StackLayout>
+                        <StackLayout>
+                            <Label
+                                Text="Wallet"
+                                TextColor="White"
+                                VerticalOptions="CenterAndExpand"
+                                FontSize="15" />
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout
+                        VerticalOptions="StartAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        Orientation="Horizontal"
+                        Padding="0, 15">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding NavigateMenuItem}"
+                                CommandParameter="MyProfilePage" />
+                        </StackLayout.GestureRecognizers>
+                        <StackLayout
+                            Margin="0, 0, 15, 0">
+                            <Image
+                                Source="right_arrow_white.png"
+                                WidthRequest="20"
+                                HeightRequest="20" />
+                        </StackLayout>
+                        <StackLayout>
+                            <Label
+                                Text="Profile"
+                                TextColor="White"
+                                VerticalOptions="CenterAndExpand"
+                                FontSize="15" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+                <BoxView
+                    Style="{StaticResource VCSpaceSeperator}" />
+                <BoxView
+                    Style="{StaticResource VCFullSeperator}" />
+                <BoxView
+                    Style="{StaticResource VCSpaceSeperator}" />
+                <StackLayout
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="StartAndExpand"
+                    Padding="0, 15">
+                    <Label
+                        Text="Log Out"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand"
+                        FontSize="15" />
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding NavigateMenuItem}"
+                            CommandParameter="LoginPage" />
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>

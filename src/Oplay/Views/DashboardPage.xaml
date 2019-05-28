@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pin="clr-namespace:FormsPinView.Core;assembly=FormsPinView.Core"
+    xmlns:local="clr-namespace:XFBindableStackLayout"
+    x:Class="Oplay.Views.DashboardPage"
+    Title="Dashboard"
+    x:Name="DashboardPageView"
+    Style="{StaticResource GenericContentPage}">
+    <ListView
+        ItemSelected="Handle_ItemSelected_1"
+        HasUnevenRows="true"
+        CachingStrategy="RecycleElementAndDataTemplate"
+        ItemsSource="{Binding AllEmployees}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout
+                        Spacing="0"
+                        BackgroundColor="White"
+                        Padding="10"
+                        Margin="15,5,15,5">
+                        <StackLayout
+                            Orientation="Horizontal">
+   
+                            
+                         <Image
+                                Source="AnonymousUser" />
+                          <StackLayout
+                                VerticalOptions="CenterAndExpand"
+                                HorizontalOptions="FillAndExpand">
+                                <Label
+                                    Font="12"
+                                    TextColor="#ff0068"
+                                    Text="{Binding firstName, StringFormat='Name : {0}'}" />
+                                <Label
+                                    Font="12"
+                                    TextColor="#ff0068"
+                                    Text="{Binding lastName, StringFormat='Surname : {0}'}" />
+                                <Label
+                                    Font="12"
+                                    TextColor="#ff0068"
+                                    Text="{Binding birthDate, StringFormat='DOB : {0}'}" />
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+   
+</ContentPage>

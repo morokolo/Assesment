@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prism:PrismApplication
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:prism="clr-namespace:Prism.Unity;assembly=Prism.Unity.Forms"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:windows="clr-namespace:Xamarin.Forms.PlatformConfiguration.WindowsSpecific;assembly=Xamarin.Forms.Core"
+    x:Class="Oplay.App">
+    <prism:PrismApplication.Resources>
+        <!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <!-- See https://material.io/color for more help choosing a Material Design Color scheme -->
+            <Color
+                x:Key="TransparentNavigationPageBarTextColor">#FFFFFF</Color>
+            <Color
+                x:Key="Primary">#78909c</Color>
+            <Color
+                x:Key="PrimaryDark">#4b636e</Color>
+            <Color
+                x:Key="PrimaryDarkTranslucent">#9926213C</Color>
+            <Color
+                x:Key="Accent">#a7c0cd</Color>
+            <Color
+                x:Key="NavigationText">White</Color>
+            <Color
+                x:Key="LabelSectionText">#6D6D72</Color>
+            <Color
+                x:Key="DetailTextColor">#979797</Color>
+            <Color
+                x:Key="LightGray">#F4F4F4</Color>
+            <Color
+                x:Key="LightGrayV2">#f0f0f0</Color>
+            <Color
+                x:Key="Gray">#666666</Color>
+              <Color
+                x:Key="Pink">#ff0068</Color>
+            
+            <Color
+                x:Key="VCBackgroundDarkGray">#000</Color>
+            <Color
+                x:Key="VodacomRed">#E60000</Color>
+            <Style
+                TargetType="NavigationPage">
+                <Setter
+                    Property="BarTextColor"
+                    Value="{StaticResource NavigationText}" />
+                <Setter
+                    Property="BarBackgroundColor"
+                    Value="{StaticResource PrimaryDark}" />
+            </Style>
+            <Style
+                TargetType="TabbedPage">
+                <Setter
+                    Property="BarTextColor"
+                    Value="{StaticResource NavigationText}" />
+                <Setter
+                    Property="BarBackgroundColor"
+                    Value="{StaticResource PrimaryDark}" />
+            </Style>
+            <OnPlatform
+                x:Key="DefaultPadding"
+                x:TypeArguments="Thickness">
+                <On
+                    Platform="iOS"
+                    Value="15" />
+                <On
+                    Platform="Android"
+                    Value="15" />
+            </OnPlatform>
+            <OnPlatform
+                x:Key="FormBtnMargin"
+                x:TypeArguments="Thickness">
+                <On
+                    Platform="iOS"
+                    Value="0,10,0,0" />
+                <On
+                    Platform="Android"
+                    Value="0,0,0,0" />
+            </OnPlatform>
+            <Style
+                x:Key="GlobalButton"
+                TargetType="Button">
+                <Setter
+                    Property="TextColor"
+                    Value="White" />
+                <Setter
+                    Property="Margin"
+                    Value="{StaticResource FormBtnMargin}" />
+                <Setter
+                    Property="BorderRadius"
+                    Value="0" />
+            </Style>
+            <Style
+                x:Key="GlobalButtonNoMargin"
+                TargetType="Button">
+                <Setter
+                    Property="TextColor"
+                    Value="White" />
+                <Setter
+                    Property="BorderRadius"
+                    Value="0" />
+            </Style>
+            <Style
+                x:Key="PrimaryBtn"
+                TargetType="Button"
+                BasedOn="{StaticResource GlobalButton}">
+                <Setter
+                    Property="BackgroundColor"
+                    Value="{StaticResource Accent}" />
+            </Style>
+            <Style
+                x:Key="PrimaryBtnNoMargin"
+                TargetType="Button"
+                BasedOn="{StaticResource GlobalButtonNoMargin}">
+                <Setter
+                    Property="BackgroundColor"
+                    Value="{StaticResource Accent}" />
+            </Style>
+            <Style
+                x:Key="ContentPageWrapper"
+                TargetType="ContentPage"
+                ApplyToDerivedTypes="True">
+                <Setter
+                    Property="BackgroundImage"
+                    Value="WrapperBackground" />
+            </Style>
+            <Style
+                x:Key="LoggedInPageWrapper"
+                TargetType="ContentPage"
+                ApplyToDerivedTypes="True">
+                <Setter
+                    Property="BackgroundImage"
+                    Value="plainPinkBackground" />
+            </Style>
+            <OnPlatform
+                x:Key="FormEntryColor"
+                x:TypeArguments="Color"
+                Android="White" />
+            <OnPlatform
+                x:Key="PagePadding"
+                x:TypeArguments="Thickness">
+                <On
+                    Platform="iOS"
+                    Value="0,64,0,0" />
+                <On
+                    Platform="Android"
+                    Value="0,60,0,0" />
+            </OnPlatform>
+            <OnPlatform
+                x:Key="VodacomCustomNavBarMargin"
+                x:TypeArguments="Thickness">
+                <On
+                    Platform="iOS"
+                    Value="0,-40,0,0" />
+                <On
+                    Platform="Android"
+                    Value="0,-30,0,0" />
+            </OnPlatform>
+            <Style
+                x:Key="FormEntry"
+                TargetType="Entry">
+                <Setter
+                    Property="HeightRequest"
+                    Value="45" />
+                <Setter
+                    Property="Margin"
+                    Value="0,0,0,10" />
+                <Setter
+                    Property="BackgroundColor"
+                    Value="{DynamicResource FormEntryColor}" />
+            </Style>
+            <Style
+                x:Key="GenericContentPage"
+                TargetType="ContentPage"
+                ApplyToDerivedTypes="True">
+                <Setter
+                    Property="BackgroundImage"
+                    Value="plainPinkBackground" />
+                <Setter
+                    Property="Padding"
+                    Value="{StaticResource PagePadding}" />
+            </Style>
+            <Style
+                x:Key="MatchDetailContentPage"
+                TargetType="ContentPage"
+                ApplyToDerivedTypes="True">
+                <Setter
+                    Property="BackgroundImage"
+                    Value="MatchDetailBg" />
+                <Setter
+                    Property="Padding"
+                    Value="{StaticResource PagePadding}" />
+            </Style>
+             <Style
+                x:Key="UserProfileContentPage"
+                TargetType="ContentPage"
+                ApplyToDerivedTypes="True">
+                <Setter
+                    Property="BackgroundImage"
+                    Value="BluryImageBg" />
+                <Setter
+                    Property="Padding"
+                    Value="{StaticResource PagePadding}" />
+            </Style>
+            <Style
+                x:Key="TransparentPageContent"
+                TargetType="StackLayout">
+                <Setter
+                    Property="BackgroundColor"
+                    Value="Transparent" />
+                <Setter
+                    Property="VerticalOptions"
+                    Value="FillAndExpand" />
+            </Style>
+            <Style
+                x:Key="SecondaryPageContent"
+                TargetType="StackLayout">
+                <Setter
+                    Property="BackgroundColor"
+                    Value="{StaticResource LightGrayV2}" />
+                <Setter
+                    Property="VerticalOptions"
+                    Value="FillAndExpand" />
+            </Style>
+            <Style
+                x:Key="Divider"
+                TargetType="BoxView">
+                <Setter
+                    Property="HorizontalOptions"
+                    Value="FillAndExpand" />
+                <Setter
+                    Property="BackgroundColor"
+                    Value="LightGray" />
+                <Setter
+                    Property="HeightRequest"
+                    Value="1" />
+            </Style>
+            <Style
+                x:Key="VCNavBarContent"
+                TargetType="ContentPage">
+                <Setter
+                    Property="Padding"
+                    Value="30, 50, 30, 30" />
+                <Setter
+                    Property="BackgroundColor"
+                    Value="{StaticResource Pink}" />
+            </Style>
+            <Style
+                x:Key="VCSpaceSeperator"
+                TargetType="BoxView">
+                <Setter
+                    Property="HeightRequest"
+                    Value="1" />
+                <Setter
+                    Property="Margin"
+                    Value="0, 3" />
+                <Setter
+                    Property="BackgroundColor"
+                    Value="Transparent" />
+            </Style>
+            <Style
+                x:Key="VCFullSeperator"
+                TargetType="BoxView">
+                <Setter
+                    Property="HeightRequest"
+                    Value="1" />
+                <Setter
+                    Property="Margin"
+                    Value="0" />
+                <Setter
+                    Property="BackgroundColor"
+                    Value="{StaticResource LightGray}" />
+            </Style>
+            <Style
+                x:Key="OptionsHeader"
+                TargetType="StackLayout">
+            </Style>
+            <Style
+                x:Key="TabBoxView"
+                TargetType="BoxView">
+                <Setter
+                    Property="BackgroundColor"
+                    Value="{StaticResource LightGray}" />
+                <Setter
+                    Property="HeightRequest"
+                    Value="3" />
+            </Style>
+            <Style
+                x:Key="TabButton"
+                TargetType="Label">
+                <Setter
+                    Property="Margin"
+                    Value="2,3,2,0" />
+                <Setter
+                    Property="HeightRequest"
+                    Value="40" />
+                <Setter
+                    Property="FontSize"
+                    Value="14" />
+                <Setter
+                    Property="TextColor"
+                    Value="{StaticResource Gray}" />
+                <Setter
+                    Property="VerticalTextAlignment"
+                    Value="Center" />
+                <Setter
+                    Property="FontAttributes"
+                    Value="Bold" />
+                <Setter
+                    Property="HorizontalTextAlignment"
+                    Value="Center" />
+            </Style>
+             <Style
+                x:Key="VCBodyTextTitle"
+                TargetType="Label">
+                <Setter
+                    Property="FontSize"
+                    Value="16" />
+                <Setter
+                    Property="HorizontalOptions"
+                    Value="FillAndExpand" />
+                <Setter
+                    Property="TextColor"
+                    Value="{StaticResource Gray}" />
+                <Setter
+                    Property="FontAttributes"
+                    Value="Bold" />
+            </Style>
+        </ResourceDictionary>
+    </prism:PrismApplication.Resources>
+</prism:PrismApplication>

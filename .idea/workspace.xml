@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="810a7e27-78a2-4a38-bca3-ab8015d962a3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/drawable/BluryImageBg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/drawable/BluryImageBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/drawable/MatchDetailBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/drawable/PhoneIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/drawable/PinkSoccerIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/drawable/StaticUser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/drawable/plainPinkBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/drawable/right_arrow_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/AmaZuluFC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/BarokaFC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/BidvestWits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/BlackLeopards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/BloemfonteinCeltic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/CapeTownCityFC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/ChippaUnited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/FreeStateStars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/GoldenArrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/HighlandsPark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/KaizerChiefs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/MamelodiSundowns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/MaritzburgUnited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/OrlandoPirates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/PolokwaneCity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/mipmap-hdpi/SuperSportUnited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.Models/Request/AuthorizationToken.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/AmaZuluFC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/BarokaFC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/BidvestWits.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/BlackLeopards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/BloemfonteinCeltic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/BluryImageBg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/BluryImageBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/CapeTownCityFC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/ChippaUnited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/FreeStateStars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/GoldenArrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/HighlandsPark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/KaizerChiefs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/MamelodiSundowns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/MaritzburgUnited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/MatchDetailBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/MatchDetailBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/OrlandoPirates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/PhoneIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/PinkSoccerIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/PolokwaneCity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/StaticUser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/SuperSportUnited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/hamburger@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/plainPinkBackground@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/right_arrow_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/right_arrow_white@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/right_arrow_white@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/uefa-champions-leaguejpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Controls/XFBindableStackLayout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/BetHistoryPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/DepositFundsPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/MasterDetailPageViewViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/MatchDetailPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/MyProfilePageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/MySummaryPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/MyWalletPageViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/BetHistoryPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/BetHistoryPage.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/DepositFundsPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/DepositFundsPage.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MasterDetailPageView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MasterDetailPageView.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MatchDetailPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MatchDetailPage.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MyProfilePage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MyProfilePage.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MySummaryPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MySummaryPage.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MyWalletPage.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Oplay/Views/MyWalletPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.Droid/MainActivity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.Droid/MainActivity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.Droid/Oplay.Droid.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.Droid/Oplay.Droid.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.Droid/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.Droid/Resources/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.Models/Oplay.Models.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.Models/Oplay.Models.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.Models/Response/MatchResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.Models/Response/MatchResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.Services/Implementations/MatchesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.Services/Implementations/MatchesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.Services/Interfaces/IMatchesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.Services/Interfaces/IMatchesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.Services/Oplay.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.Services/Oplay.Services.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.iOS/AppDelegate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.iOS/AppDelegate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.iOS/Oplay.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.iOS/Oplay.iOS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.iOS/Resources/hamburger.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/hamburger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay.iOS/Resources/hamburger@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay.iOS/Resources/hamburger@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/App.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/Constants/NavigationPaths.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/Constants/NavigationPaths.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/Constants/StorageKeys.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/Constants/StorageKeys.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/Oplay.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/Oplay.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/ViewModels/DashboardPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/DashboardPageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/ViewModels/LoginPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/LoginPageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/ViewModels/SignUpPageViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/SignUpPageViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/ViewModels/ViewModelBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/ViewModels/ViewModelBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/Views/DashboardPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/Views/DashboardPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Oplay/Views/SignUpPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Oplay/Views/SignUpPage.xaml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MySummaryPageViewModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Oplay/ViewModels/MySummaryPageViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DashboardPageViewModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Oplay/ViewModels/DashboardPageViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatchDetailPageViewModel.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Oplay/ViewModels/MatchDetailPageViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="841" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Oplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Oplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oplay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oplay" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Oplay" type="462c0819:PsiDirectoryNode" />
+              <item name="ViewModels" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="810a7e27-78a2-4a38-bca3-ab8015d962a3" name="Default" comment="" />
+      <created>1558990448921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558990448921</updated>
+      <workItem from="1558990451262" duration="229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="229000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="841" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Oplay/ViewModels/MySummaryPageViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Oplay/ViewModels/DashboardPageViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Oplay/ViewModels/MatchDetailPageViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
